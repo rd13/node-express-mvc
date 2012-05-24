@@ -1,0 +1,17 @@
+<form method="post" action="/new_user">
+	<select name="title">
+		<option value="Mr">Mr</option>
+		<option value="Mrs">Mrs</option>
+	</select>
+	<input type="text" name="name" />
+	<input type="submit" value="Submit" />
+</form>
+
+<table>
+{{#users}}
+	<tr>
+		<td>{{title}}</td>
+		<td>{{name}}</td>
+	</tr>
+{{/users}}
+</table>
