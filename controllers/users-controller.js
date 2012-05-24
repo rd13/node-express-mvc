@@ -19,21 +19,3 @@ module.exports = function(app) {
 
 }
 
-
-/*
-
-	  docs.forEach(function(obj){
-	  	console.log(obj.title);
-	  });
-
-
-instance.title = 'hello';
-instance.save(function (err) {
-});
-
-MyModel.find({}, function (err, docs) {
-  docs.forEach(function(obj){
-  	console.log(obj.title);
-  });
-});
-*/
